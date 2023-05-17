@@ -20,5 +20,26 @@ The IoT system will be divided into three main parts:
 •	Sensor and device 
 •	Cloud Platform using Django rest framework and python everywhere 
 •	Dashboard
+![image](https://github.com/01ahmed01/Temperature-Humidity-monitoring/assets/129277661/f0e4bcf2-6d81-407d-bf6b-0d639f503c42)
 
+# 3.0	Sensors 
 
+ESP32
+
+![image](https://github.com/01ahmed01/Temperature-Humidity-monitoring/assets/129277661/ccc69160-da65-4cff-88a3-7317f6b6c839)
+
+Temperature and Humidity sensor [DHT22]
+
+![image](https://github.com/01ahmed01/Temperature-Humidity-monitoring/assets/129277661/378a6a34-378c-4a92-9e51-40314dcf565f)
+
+Overview of sensor
+
+![image](https://github.com/01ahmed01/Temperature-Humidity-monitoring/assets/129277661/e4639233-8ce0-413c-a8e9-d47cfab123f6)
+
+# 4.0 Cloud platform 
+A cloud platform is needed to connect the hardware with the user’s smartphone device. The cloud platform should be updated in real time as Temperature and humidity levels change. Data from the cloud platform should be presented on the dashboard for users to view. The server is created using Django with pythonanywhere host. A unique server is created using Ubuntu. We push the project files onto Github so all group members can edit and contribute
+
+# 5.0 Dashboard 
+The dashboard is connected to the ESP32 senor and displays 3 variables to the user: Temperature, Humidity, and fire. Each variable will be plotted as they change over time, giving the user easy to understand info about the climate of their indoor environment. In case the temperature rises to dangerously high levels, an alarm will be activated and the fire status will display “true”. 
+
+![image](https://github.com/01ahmed01/Temperature-Humidity-monitoring/assets/129277661/5b169d34-6243-4342-bcb2-4a40d5f83c96)

@@ -4,7 +4,7 @@ Group 10
 # Group members:
 1.	Ahmed Mohamed Mostafa
 2.	Mohammed Tamim Bakrou 
-3.	Wahab 
+3.	Abdelwahab Mohamed Kamel Mohamed 
 
 # 1.0	Problem statement 
 Indoors Temperature and humidity have negative effects if not controlled or balance in a specific range. Unmonitored humidity and temperature levels can affect different aspects in an indoor setting. These effects can range from damage of property to detrimental health risks.
